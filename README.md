@@ -26,29 +26,29 @@ git clone https://github.com/asweeney99/harec_quiz.git
 2. Click the green button Code, then Download Zip.
 3. Extract all the contents of the downloaded folder.
 
-Now you have the source code, you need to install the python module playsound. First open a command line by typing 'cmd' in your Windows search bar.
+Now you have the source code, you need to install the python module playsound. Open the command prompt application by typing 'cmd' in your Windows search bar.
 
-Then type the command:
+In the command prompt type:
 
 ```
 pip install playsound==1.2.2
 ```
 
-Pip is a package manager that comes with Python. Playsound is a python programme for playing mp3 files.
+Pip is a package manager that comes with Python. Playsound is a python module for playing mp3 files.
 
 If you received no errors, you're good to go!
 
 
 ## How to Play
 
-	The quiz test your knowledge of country prefixes, Q-Codes and the IARU Region 1 band plan.
+The quiz tests your knowledge of country prefixes, Q-Codes and the IARU Region 1 band plan.
     
-	Type a, b, c or d then enter. Type q to quit.
+Type a, b, c or d then enter. Type q to quit.
 	
-	The game keeps a record of your high score to beat when you play.
+The game keeps a record of your high score to beat when you play.
 	
 ## Issues 
 
-	Bugs or suggestions for improvement can be notified to the developer on [Github](https://github.com/asweeney99/harec_quiz/issues)
+Bugs or suggestions for improvement can be notified to the developer on [Github](https://github.com/asweeney99/harec_quiz/issues)
 	
 	
