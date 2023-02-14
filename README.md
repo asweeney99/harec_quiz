@@ -55,5 +55,10 @@ The game keeps a record of your high score to beat when you play.
 ## Issues 
 
 Bugs or suggestions for improvement can be notified to the developer on [Github](https://github.com/asweeney99/harec_quiz/issues)
-	
+
+### Tips
+
+Command Prompt (cmd) text too small? 
+
+You can increase font size by right clicking the top bar, choose Properties, then select the Font tab and choose your font size.
 	

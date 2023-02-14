@@ -249,26 +249,25 @@ def quiz_master():
     
     while(True):
         #Randomly select a topic
-        result = random.choice(topics)
+        for topic in topics:
+            if(topic == 'prefixes'):
+                answer = prefix_question(game_score)              
+            elif(topic == 'q-codes'):
+                answer = q_code_question(game_score)
+            elif(topic == 'bands'):
+                answer = band_question(game_score)
+            else:
+                sys.exit('Something bad happened.')
         
-        if(result == 'prefixes'):
-            answer = prefix_question(game_score)              
-        elif(result == 'q-codes'):
-            answer = q_code_question(game_score)
-        elif(result == 'bands'):
-            answer = band_question(game_score)
-        else:
-            sys.exit('Something bad happened.')
-        
-        time.sleep(1)
-        if(answer[0]):
-            print('Nice!')
-            game_score += 1
-            print('Score: ' + str(game_score)+ '\n')
             time.sleep(1)
-        else:
-            print('Wrong. The answer is: ' + answer[1] + '\n')
-            time.sleep(2)
+            if(answer[0]):
+                print('Nice!')
+                game_score += 1
+                print('Score: ' + str(game_score)+ '\n')
+                time.sleep(1)
+            else:
+                print('Wrong. The answer is: ' + answer[1] + '\n')
+                time.sleep(2)
              
 def quit(game_score):
     if(game_score > int(high_score)):
