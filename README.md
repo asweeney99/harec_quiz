@@ -8,7 +8,6 @@ Windows 10, Windows 11 or Linux.
 
 You need the Python programming language on your computer, specifically release 3.9.X. While other Python versions might also work, they haven't been specifically tested. You can download Python 3.9.16 [here](https://www.python.org/downloads/). You can follow the detailed instructions to download Python [here](https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html).
 
-You must choose the option *Add Python 3.9 to PATH* during the download. This will allow you to run the game from the command line in Windows.
 
 ## Download source code 
 
@@ -40,6 +39,12 @@ If you received no errors, you're good to go!
 
 
 ## How to Play
+
+To launch the game, open a Command Prompt (see above), and type:
+
+```
+py harec.py
+```
 
 The quiz tests your knowledge of country prefixes, Q-Codes and the IARU Region 1 band plan.
     
