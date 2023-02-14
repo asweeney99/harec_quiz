@@ -276,7 +276,7 @@ def quit(game_score):
         f = open('score.txt', 'w')
         f.write(str(game_score))
         f.close()
-    print('Your score:' + str(game_score))
+    print('Your score: ' + str(game_score))
     print('Thanks for playing. Bye!')
     return
 
