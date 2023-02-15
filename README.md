@@ -1,6 +1,6 @@
 # harec_quiz
 
-IRTS HAREC multiple choice quiz.
+IRTS HAREC multiple choice quiz. The quiz tests your knowledge of country prefixes, Q-Codes and the IARU Region 1 band plan.
 
 ## Requirements
 
@@ -49,11 +49,11 @@ To launch the game, open a Command Prompt (see above), and type:
 py harec.py
 ```
 
-The quiz tests your knowledge of country prefixes, Q-Codes and the IARU Region 1 band plan.
+Four possible answers to the question are given.
     
-Type a, b, c or d then enter. Type q to quit.
+To answer, type a, b, c or d then press enter. Type q to quit.
 	
-The game keeps a record of your high score to beat when you play.
+The game keeps a record of your high score for you to beat when you play.
 	
 ## Issues 
 
