@@ -8,7 +8,7 @@ Windows 10, Windows 11 or Linux.
 
 Python 3.9.X
 
-You need the Python programming language on your computer, specifically release 3.9.X where X is any release number. While other Python versions might also work, they haven't been specifically tested. You can download Python 3.9.16 [here](https://www.python.org/downloads/). You can follow the detailed instructions to download Python [here](https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html).
+You need the Python programming language on your computer, specifically release 3.9.X where X is any release number. While other Python versions might also work, they haven't been specifically tested. You can download Python 3.9.16 [here](https://www.python.org/downloads/). You can follow the detailed instructions on how to download Python [here](https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html).
 
 
 ## Download source code 
