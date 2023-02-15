@@ -21,10 +21,10 @@ You can download the source code if you have the git version control system. Alt
 git clone https://github.com/asweeney99/harec_quiz.git
 ```
 
-### Option 2: Download Zipped files
+### Option 2: Download zipped files
 
 1. Go to https://github.com/asweeney99/harec_quiz.git
-2. Click the green button Code, then Download Zip.
+2. Click the green button Code, then select Download Zip.
 3. Extract all the contents of the downloaded folder.
 
 
@@ -43,10 +43,16 @@ If you received no errors, you're good to go! If you got an error, most likely y
 
 ## How to Play
 
-To launch the game, open a Command Prompt (see above), and type:
+Open a Command Prompt (see above), and change your directory (cd) to the one containing harec.py, the source code which you downloaded earlier. In my case, my command line looks like this. Your folder path will be different:
 
 ```
-py harec.py
+C:\Users\aswee>cd harec_quiz
+```
+
+You're in the game directory. Now launch the game with the py command:
+
+```
+C:\Users\aswee\harec_quiz>py harec.py
 ```
 
 Four possible answers to the question are given.
